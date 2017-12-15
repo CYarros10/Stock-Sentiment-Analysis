@@ -93,9 +93,9 @@ df = df.sort_values(by=['entrydate','entrytime'])
 print(df.head())
 rows = [tuple(x) for x in df.values]
 print(rows[0])
-cursor.executemany("insert /*+ ignore_row_on_dupkey_index(twitterdata, twitterdata_pk) */ into twitterdata (followers_count,retweet_count,sentiment,text,username,timestamp,entrydate,entrytime,searchvalue) values (:1, :2, :3, :4, :5, :6, :7, :8, :9)", rows)
-connection.commit()
+#cursor.executemany("insert /*+ ignore_row_on_dupkey_index(twitterdata, twitterdata_pk) */ into twitterdata (followers_count,retweet_count,sentiment,text,username,timestamp,entrydate,entrytime,searchvalue) values (:1, :2, :3, :4, :5, :6, :7, :8, :9)", rows)
+#connection.commit()
 
 
-fd = open('results/twitterSearch3Results.csv','w')
+fd = open('results/twitterSearchResults.csv','w')
 df.to_csv(fd, index=True, encoding='utf-8', header=True)
