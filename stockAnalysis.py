@@ -8,6 +8,7 @@ from pytrends.request import TrendReq
 import threading
 from datetime import datetime
 from dateutil import tz
+from alpha_vantage.techindicators import TechIndicators
 
 
 #######################################################
@@ -94,7 +95,7 @@ def saveCSV(df, fileName):
 # dataframe contents via the desired query
 ##########################################################
 def insertToOracleDatabase(df, query):
-    connection = co.connect('CIODashboardUser/password@129.158.70.193:1521/PDB1.gse00013232.oraclecloud.internal')
+    connection = co.connect('CY/WElcome_123#@129.146.87.82:1521/pdb1.sub10231952570.newvcn.oraclevcn.com')
     cursor = connection.cursor()
 
     rows = [tuple(x) for x in df.values]
@@ -105,69 +106,73 @@ def insertToOracleDatabase(df, query):
 #######################################################
 # Pull stock data from alpha vantage
 #######################################################
-def stockDataPull(phrase):
-    print("Accessing stock price data for "+phrase+" ...")
+def stockPricePull(stockticker):
+    print("Accessing stock price data for "+stockticker+" ...")
 
     df = pd.read_csv(
-        'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=' + phrase + '&interval=1min&apikey=1HAYLUHGCB6E0VXC&datatype=csv')
+        'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=' + stockticker + '&interval=1min&apikey=1HAYLUHGCB6E0VXC&datatype=csv')
 
     df = cleanDateTimes(df)
-    df['stockticker'] = phrase
+    df['stockticker'] = stockticker
 
     #print(df.head())
     #saveCSV(df, 'results/stockTickerResults.csv')
 
     # Insert results into DB
-    insertToOracleDatabase(df, '''insert /*+ ignore_row_on_dupkey_index(stockdata, stockdata_pk) */ 
-                                into stockdata (timestamp,open,high,low,close,volume,entrydate, entrytime,stockticker)
+    insertToOracleDatabase(df, '''insert /*+ ignore_row_on_dupkey_index(stockprice, stockprice_pk) */ 
+                                into stockprice (timestamp,open,high,low,close,volume,entrydate, entrytime,stockticker)
                                 values (:1, :2, :3, :4, :5, :6, :7, :8, :9)''')
 
+    saveCSV(df, 'results/rawStockPriceData.csv')
 
 #######################################################
 # Pull data from google API
 # params: phrase - pull data relating to this value
 #######################################################
-def googleTrendDataPull(phrase):
+def googleTrendPull(stockticker):
 
-    print("Retrieving google trends for "+phrase+" ...")
+    print("Retrieving google trends for "+stockticker+" ...")
 
     # Login to Google. Only need to run this once, the rest of requests will use the same session.
     pytrend = TrendReq()
 
     # Create payload and capture API tokens. Only needed for interest_over_time(), interest_by_region() & related_queries()
-    pytrend.build_payload(kw_list=[phrase], timeframe='now 1-H')
+    pytrend.build_payload(kw_list=[stockticker], timeframe='now 1-H')
 
     # Interest Over Time
     interest_over_time_df = pytrend.interest_over_time()
 
     df = pd.DataFrame(pd.DataFrame.from_dict(interest_over_time_df, orient='columns'))
 
-    saveCSV(df, 'results/rawData.csv')
+    saveCSV(df, 'results/rawGoogleTrendData.csv')
 
-    df = pd.read_csv('results/rawData.csv')
+    df = pd.read_csv('results/rawGoogleTrendData.csv')
 
     df.rename(columns={'date': 'timestamp'}, inplace=True)
+
+
     df = utcToEST(df)
     df = cleanDateTimes(df)
 
     df.drop('isPartial', axis=1, inplace=True)
 
-    df["phrase"] = phrase
+    df["stockticker"] = stockticker
 
+    saveCSV(df, 'results/rawGoogleTrendData.csv')
 
     # Insert results
-    insertToOracleDatabase(df, '''insert /*+ ignore_row_on_dupkey_index(googletrenddata, googletrenddata_pk) */
-                               into googletrenddata(timestamp,phrase_value,
-                              entrydate,entrytime,phrase) values (:1, :2, :3, :4, :5)''')
+    insertToOracleDatabase(df, '''insert /*+ ignore_row_on_dupkey_index(googletrend, googletrend_pk) */
+                               into googletrend(timestamp,trendscore,
+                              entrydate,entrytime,stockticker) values (:1, :2, :3, :4, :5)''')
 
 
 #######################################################
 # Pull data from twitter search API
 # params: phrase - pull data relating to this value
 #######################################################
-def twitterDataPull(phrase):
+def twitterSentimentPull(stockticker):
 
-    print("Analyzing twitter sentiment for "+phrase+" ...")
+    print("Analyzing twitter sentiment for "+stockticker+" ...")
 
 
     api = twitter.Api(
@@ -180,7 +185,7 @@ def twitterDataPull(phrase):
 
     # until parameter: Returns tweets created before the given date. Date should be formatted as YYYY-MM-DD. Keep in mind that the search
     # index has a 7-day limit. In other words, no tweets will be found for a date older than one week.
-    search = api.GetSearch(raw_query="q=%24" + phrase + "%20&result_type=mixed&count=100")
+    search = api.GetSearch(raw_query="q=%24" + stockticker + "%20&result_type=mixed&count=100")
 
 
     for tweet in search:
@@ -214,17 +219,17 @@ def twitterDataPull(phrase):
 
     df = utcToEST(df)
     df = cleanDateTimes(df)
-    df['searchvalue'] = phrase.encode('utf-8')
+    df['searchvalue'] = stockticker.encode('utf-8')
 
     df.drop('created_at', axis=1, inplace=True)
 
     # Insert results
-    insertToOracleDatabase(df, '''insert /*+ ignore_row_on_dupkey_index(twitterdata, twitterdata_pk) */
-                                into twitterdata (followers_count,retweet_count,sentiment,text,username,
+    insertToOracleDatabase(df, '''insert /*+ ignore_row_on_dupkey_index(twittersentiment, twittersentiment_pk) */
+                                into twittersentiment (followers_count,retweet_count,sentiment,text,username,
                                 timestamp,entrydate,entrytime,searchvalue) 
                                 values (:1, :2, :3, :4, :5, :6, :7, :8, :9)''')
 
-    saveCSV(df, 'results/twitterSearch3Results.csv')
+    saveCSV(df, 'results/rawTwitterSentimentData.csv')
 
 
 ##########################################################
@@ -232,11 +237,13 @@ def twitterDataPull(phrase):
 ##########################################################
 def dataPull(stockTicker):
 
-    print("Gathering price, trend, and sentiment data for: "+stockTicker)
+    print("Gathering prices, trends, and sentiment data for: "+stockTicker)
 
-    stockDataPull(stockTicker)
-    twitterDataPull(stockTicker)
-    googleTrendDataPull(stockTicker)
+    stockPricePull(stockTicker)
+    print("done!")
+    twitterSentimentPull(stockTicker)
+    print("done!")
+    googleTrendPull(stockTicker)
 
     print("done!")
 

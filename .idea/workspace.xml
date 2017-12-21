@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f09ba0-5dde-4e19-9964-af20ddc14a6a" name="Default" comment="" />
+    <list default="true" id="b9f09ba0-5dde-4e19-9964-af20ddc14a6a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/googleTrendResults.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/rawData.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/rawDataConsolidation.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/stockTickerResults.csv" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stockSentiment.py" afterPath="$PROJECT_DIR$/stockAnalysis.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-pull-scripts/googleTrend.py" afterPath="$PROJECT_DIR$/data-pull-scripts/googleTrend.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-pull-scripts/twitterSearch.py" afterPath="$PROJECT_DIR$/data-pull-scripts/twitterSearch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regressionML.py" afterPath="$PROJECT_DIR$/regressionML.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,73 +21,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="stockAnalysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stockAnalysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="265" column="30" lean-forward="false" selection-start-line="265" selection-start-column="30" selection-end-line="265" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#448#680#0" expanded="false" />
+                <element signature="e#875#1136#0" expanded="false" />
+                <element signature="e#1353#1927#0" expanded="false" />
+                <element signature="e#2146#2396#0" expanded="false" />
+                <element signature="e#2625#2725#0" expanded="false" />
+                <element signature="e#2986#3223#0" expanded="false" />
+                <element signature="e#4402#5596#0" expanded="false" />
+                <element signature="e#5843#8162#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stockTechIndicator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stockTechIndicator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1870">
+              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="twitterSearch.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unused/twitterSearch.py">
+        <entry file="file://$PROJECT_DIR$/data-pull-scripts/twitterSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1649">
-              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stockSentiment.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stockSentiment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3179">
-              <caret line="260" column="7" lean-forward="false" selection-start-line="260" selection-start-column="7" selection-end-line="260" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#392#624#0" expanded="false" />
-                <element signature="e#819#1080#0" expanded="false" />
-                <element signature="e#1297#1871#0" expanded="false" />
-                <element signature="e#2090#2340#0" expanded="false" />
-                <element signature="e#4280#5389#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="twitterUsername.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unused/twitterUsername.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-286">
+              <caret line="37" column="72" lean-forward="false" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classificationML.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classificationML.py">
+      <file leaf-file-name="stockDataPull.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-pull-scripts/stockDataPull.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-284">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="-51">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="regressionML.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regressionML.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="googleTrend.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unused/googleTrend.py">
+        <entry file="file://$PROJECT_DIR$/data-pull-scripts/googleTrend.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="357">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataConsolidation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataConsolidation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+              <folding>
+                <element signature="e#1#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,7 +109,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
+      <find>twitterdata</find>
     </findStrings>
+    <replaceStrings>
+      <replace>twittersentiment</replace>
+      <replace>stockprice</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,17 +134,23 @@
         <option value="$PROJECT_DIR$/twitterSearch.py" />
         <option value="$PROJECT_DIR$/stockDataPull.py" />
         <option value="$PROJECT_DIR$/dataConsolidation.py" />
-        <option value="$PROJECT_DIR$/stockSentiment.py" />
         <option value="$PROJECT_DIR$/MLtesting.py" />
         <option value="$PROJECT_DIR$/classificationML.py" />
-        <option value="$PROJECT_DIR$/regressionML.py" />
         <option value="$PROJECT_DIR$/unused/twitterSearch.py" />
+        <option value="$PROJECT_DIR$/regressionML.py" />
+        <option value="$PROJECT_DIR$/stockSentiment.py" />
+        <option value="$PROJECT_DIR$/data-pull-scripts/googleTrend.py" />
+        <option value="$PROJECT_DIR$/data-pull-scripts/twitterSearch.py" />
+        <option value="$PROJECT_DIR$/data-pull-scripts/stockDataPull.py" />
+        <option value="$PROJECT_DIR$/testFork.py" />
+        <option value="$PROJECT_DIR$/stockTechIndicator.py" />
+        <option value="$PROJECT_DIR$/stockAnalysis.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1152" />
+    <option name="width" value="1458" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -143,28 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="StockSentiment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StockSentiment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StockSentiment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StockSentiment" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StockSentiment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StockSentiment" type="462c0819:PsiDirectoryNode" />
-              <item name="unused" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -176,11 +180,33 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StockSentiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockSentiment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StockSentiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockSentiment" type="462c0819:PsiDirectoryNode" />
+              <item name="data-pull-scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StockSentiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockSentiment" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -201,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.regressionML">
+  <component name="RunManager" selected="Python.testFork">
     <configuration name="MLtesting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,23 +262,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="dataConsolidation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="StockSentiment" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataConsolidation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="regressionML" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,7 +291,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="StockSentiment" />
-      <option name="SCRIPT_NAME" value="C:\Users\cyarros\PycharmProjects\StockSentiment\stockSentiment.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\cyarros\PycharmProjects\StockSentiment\stockAnalysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="testFork" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="StockSentiment" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testFork.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -290,22 +316,25 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.stockSentiment" />
       <item index="1" class="java.lang.String" itemvalue="Python.MLtesting" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dataConsolidation" />
-      <item index="3" class="java.lang.String" itemvalue="Python.classificationML" />
-      <item index="4" class="java.lang.String" itemvalue="Python.regressionML" />
+      <item index="2" class="java.lang.String" itemvalue="Python.classificationML" />
+      <item index="3" class="java.lang.String" itemvalue="Python.regressionML" />
+      <item index="4" class="java.lang.String" itemvalue="Python.testFork" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.regressionML" />
-        <item index="1" class="java.lang.String" itemvalue="Python.classificationML" />
-        <item index="2" class="java.lang.String" itemvalue="Python.MLtesting" />
-        <item index="3" class="java.lang.String" itemvalue="Python.dataConsolidation" />
-        <item index="4" class="java.lang.String" itemvalue="Python.stockSentiment" />
+        <item index="0" class="java.lang.String" itemvalue="Python.testFork" />
+        <item index="1" class="java.lang.String" itemvalue="Python.stockSentiment" />
+        <item index="2" class="java.lang.String" itemvalue="Python.regressionML" />
+        <item index="3" class="java.lang.String" itemvalue="Python.classificationML" />
+        <item index="4" class="java.lang.String" itemvalue="Python.MLtesting" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -318,18 +347,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="1458" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15364583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20457697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34364995" sideWeight="0.8609155" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34685165" sideWeight="0.147116" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34685165" sideWeight="0.852884" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39852008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39852008" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -345,217 +375,58 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/unused/googleTrend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/twitterSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="81" column="47" lean-forward="false" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stockSentiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#392#624#0" expanded="false" />
-            <element signature="e#819#1080#0" expanded="false" />
-            <element signature="e#1297#1871#0" expanded="false" />
-            <element signature="e#2090#2340#0" expanded="false" />
-            <element signature="e#4280#5389#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MLtesting.py" />
-    <entry file="file://$PROJECT_DIR$/dataConsolidation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/stockDataPull.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/googleTrend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/twitterSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="81" column="47" lean-forward="true" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataConsolidation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stockSentiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#392#624#0" expanded="false" />
-            <element signature="e#819#1080#0" expanded="false" />
-            <element signature="e#1297#1871#0" expanded="false" />
-            <element signature="e#2090#2340#0" expanded="false" />
-            <element signature="e#4280#5389#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MLtesting.py" />
-    <entry file="file://$PROJECT_DIR$/unused/stockDataPull.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/googleTrend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/twitterSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stockSentiment.py">
+    <entry file="file://$PROJECT_DIR$/unused/stockDataPull.py" />
+    <entry file="file://$PROJECT_DIR$/unused/googleTrend.py" />
+    <entry file="file://$PROJECT_DIR$/unused/twitterSearch.py" />
+    <entry file="file://$PROJECT_DIR$/stockAnalysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
           <caret line="127" column="51" lean-forward="true" selection-start-line="127" selection-start-column="51" selection-end-line="127" selection-end-column="51" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#392#624#0" expanded="false" />
-            <element signature="e#819#1080#0" expanded="false" />
-            <element signature="e#1297#1871#0" expanded="false" />
-            <element signature="e#2090#2340#0" expanded="false" />
-            <element signature="e#4280#5389#0" expanded="false" />
+            <element signature="e#448#680#0" expanded="false" />
+            <element signature="e#875#1136#0" expanded="false" />
+            <element signature="e#1353#1927#0" expanded="false" />
+            <element signature="e#2146#2396#0" expanded="false" />
+            <element signature="e#2625#2725#0" expanded="false" />
+            <element signature="e#2986#3223#0" expanded="false" />
+            <element signature="e#4402#5596#0" expanded="false" />
+            <element signature="e#5843#8162#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unused/stockDataPull.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/googleTrend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/twitterSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stockSentiment.py">
+    <entry file="file://$PROJECT_DIR$/unused/stockDataPull.py" />
+    <entry file="file://$PROJECT_DIR$/unused/googleTrend.py" />
+    <entry file="file://$PROJECT_DIR$/unused/twitterSearch.py" />
+    <entry file="file://$PROJECT_DIR$/stockAnalysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2686">
           <caret line="167" column="0" lean-forward="true" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#392#624#0" expanded="false" />
-            <element signature="e#819#1080#0" expanded="false" />
-            <element signature="e#1297#1871#0" expanded="false" />
-            <element signature="e#2090#2340#0" expanded="false" />
-            <element signature="e#4280#5389#0" expanded="false" />
+            <element signature="e#448#680#0" expanded="false" />
+            <element signature="e#875#1136#0" expanded="false" />
+            <element signature="e#1353#1927#0" expanded="false" />
+            <element signature="e#2146#2396#0" expanded="false" />
+            <element signature="e#2625#2725#0" expanded="false" />
+            <element signature="e#2986#3223#0" expanded="false" />
+            <element signature="e#4402#5596#0" expanded="false" />
+            <element signature="e#5843#8162#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unused/stockDataPull.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="166" lean-forward="false" selection-start-line="17" selection-start-column="166" selection-end-line="17" selection-end-column="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/twitterTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/stockDataPull.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="166" lean-forward="false" selection-start-line="17" selection-start-column="166" selection-end-line="17" selection-end-column="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/twitterTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/stockDataPull.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/stockDataPull.py" />
+    <entry file="file://$PROJECT_DIR$/unused/twitterTest.py" />
+    <entry file="file://$PROJECT_DIR$/unused/stockDataPull.py" />
+    <entry file="file://$PROJECT_DIR$/unused/twitterTest.py" />
+    <entry file="file://$PROJECT_DIR$/unused/stockDataPull.py" />
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/twitter/stream.py" />
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/urllib2.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -589,13 +460,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/search.py" />
-    <entry file="file://$PROJECT_DIR$/unused/twitterSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/twitterSearch.py" />
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/pandas/io/formats/format.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -604,13 +469,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitterSearch3.py" />
-    <entry file="file://$PROJECT_DIR$/unused/stockDataPull.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/stockDataPull.py" />
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/sklearn/utils/multiclass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -619,14 +478,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/results/rawDataConsolidation.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider editor-type-id="LargeFileEditor">
         <state relative-caret-position="-85">
           <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -645,43 +504,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataConsolidation.py">
+    <entry file="file://$PROJECT_DIR$/unused/twitterSearch.py" />
+    <entry file="file://$PROJECT_DIR$/unused/twitterSearch2.py" />
+    <entry file="file://$PROJECT_DIR$/unused/twitterTest.py" />
+    <entry file="file://$PROJECT_DIR$/unused/twitterUsername.py" />
+    <entry file="file://$PROJECT_DIR$/unused/googleTrend.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/pandas/core/indexes/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/twitterSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unused/twitterSearch2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="197">
+          <caret line="2521" column="0" lean-forward="false" selection-start-line="2521" selection-start-column="0" selection-end-line="2521" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unused/twitterTest.py">
+    <entry file="file://$PROJECT_DIR$/results/rawTechIndicators.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="-61192">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unused/twitterUsername.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -689,17 +533,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unused/googleTrend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classificationML.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284">
+        <state relative-caret-position="17">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="35" />
           <folding />
         </state>
@@ -707,25 +543,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regressionML.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        <state relative-caret-position="536">
+          <caret line="41" column="99" lean-forward="false" selection-start-line="41" selection-start-column="92" selection-end-line="41" selection-end-column="99" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stockSentiment.py">
+    <entry file="file://$PROJECT_DIR$/results/googleTrendResults.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3179">
-          <caret line="260" column="7" lean-forward="false" selection-start-line="260" selection-start-column="7" selection-end-line="260" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/stockTickerResults.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/rawGoogleTrendData.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="265" column="30" lean-forward="false" selection-start-line="265" selection-start-column="30" selection-end-line="265" selection-end-column="30" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#392#624#0" expanded="false" />
-            <element signature="e#819#1080#0" expanded="false" />
-            <element signature="e#1297#1871#0" expanded="false" />
-            <element signature="e#2090#2340#0" expanded="false" />
-            <element signature="e#4280#5389#0" expanded="false" />
+            <element signature="e#448#680#0" expanded="false" />
+            <element signature="e#875#1136#0" expanded="false" />
+            <element signature="e#1353#1927#0" expanded="false" />
+            <element signature="e#2146#2396#0" expanded="false" />
+            <element signature="e#2625#2725#0" expanded="false" />
+            <element signature="e#2986#3223#0" expanded="false" />
+            <element signature="e#4402#5596#0" expanded="false" />
+            <element signature="e#5843#8162#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockTechIndicator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1870">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-pull-scripts/twitterSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="37" column="72" lean-forward="false" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-pull-scripts/stockDataPull.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-pull-scripts/googleTrend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataConsolidation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

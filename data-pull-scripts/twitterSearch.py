@@ -6,7 +6,7 @@ from textblob import TextBlob
 import cx_Oracle as co;
 
 
-searchValue = 'Oracle Big Data'
+searchValue = 'ORCL'
 
 
 def clean_tweet(tweet):
@@ -32,10 +32,10 @@ connection = co.connect('CIODashboardUser/password@129.158.70.193:1521/PDB1.gse0
 cursor = connection.cursor();
 
 api = twitter.Api(
-    consumer_key='CmaGk6rnfeKAozUoJjFPvFDGh',
-    consumer_secret='SqZH21KBOvmSKLX1juq4u857819EW38QIvegAF9lY3nJ6EM2zd',
-    access_token_key = '355258725-JcZMxwFesLmzKbWbkwRs3r7lRnRkpdCmiZgypepg',
-    access_token_secret = 'XV2OgYfyy6CT0Vr77W88lqRf6eShDo8PpgjHSjwzFEuC9')
+    consumer_key='i83JrbirFFJ9mx0xkgXacj7bT',
+    consumer_secret='XbhsBbsECNBNOA0iDO9UqJRns5Xrjnx1gYrUGS5wFCh5Hm5vDz',
+    access_token_key='940629705807597568-56AcrGEz8BVIVu8LbjOUARv4iuHf6m7',
+    access_token_secret='aSWt2OP0MyNUud8I9tA58YEphTYK945yeh4Nx11qLgIsS')
 
 tweets = []
 
