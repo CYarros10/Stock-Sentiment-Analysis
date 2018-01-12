@@ -3,7 +3,7 @@ import requests
 import cx_Oracle as co;
 import pandas as pd;
 
-connection = co.connect('CIODashboardUser/password@129.158.70.193:1521/PDB1.gse00013232.oraclecloud.internal');
+connection = co.connect('CY/WElcome_123#@129.146.87.82:1521/pdb1.sub10231952570.newvcn.oraclevcn.com');
 cursor = connection.cursor();
 
 symbol = 'MSFT'
@@ -44,11 +44,6 @@ print(rows[0])
 cursor.executemany("insert /*+ ignore_row_on_dupkey_index(stockdata, stockdata_pk) */ into stockdata (timestamp, open,high,low,close,volume,stockticker,entrydate,entrytime) values (:1, :2, :3, :4, :5, :6, :7, :8, :9)", rows)
 connection.commit()
 
-#cursor.executemany( "merge into stockdata s",
-#                    "using (select 1 :1 timestamp from dual ) sd",
-#                    "on (sd.timestamp = s.timestamp)",
-#                    "when not matched then insert(timestamp,open,high,low,close,volume,stockticker,entrydate,entrytime)",
-#                    "values (:1, :2, :3, :4, :5, :6, :7, :8, :9)", rows)
 
 
 ##########################
