@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f09ba0-5dde-4e19-9964-af20ddc14a6a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/googleTrendResults.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/rawData.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/rawDataConsolidation.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results/stockTickerResults.csv" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/stockSentiment.py" afterPath="$PROJECT_DIR$/stockAnalysis.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cryptocurrencyDataPull.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classificationML.py" afterPath="$PROJECT_DIR$/machine-learning/classificationML.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data-pull-scripts/googleTrend.py" afterPath="$PROJECT_DIR$/indv-data-pull-scripts/googleTrend.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data-pull-scripts/stockDataPull.py" afterPath="$PROJECT_DIR$/indv-data-pull-scripts/stockDataPull.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data-pull-scripts/techIndicators.py" afterPath="$PROJECT_DIR$/indv-data-pull-scripts/techIndicators.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data-pull-scripts/twitterSearch.py" afterPath="$PROJECT_DIR$/indv-data-pull-scripts/twitterSearch.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data-pull-scripts/twitterUsername.py" afterPath="$PROJECT_DIR$/indv-data-pull-scripts/twitterUsername.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regressionML.py" afterPath="$PROJECT_DIR$/machine-learning/regressionML.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/rawTwitterSentimentData.csv" afterPath="$PROJECT_DIR$/results/rawTwitterSentimentData.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-pull-scripts/googleTrend.py" afterPath="$PROJECT_DIR$/data-pull-scripts/googleTrend.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-pull-scripts/twitterSearch.py" afterPath="$PROJECT_DIR$/data-pull-scripts/twitterSearch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regressionML.py" afterPath="$PROJECT_DIR$/regressionML.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/rawGoogleTrendData.csv" afterPath="$PROJECT_DIR$/results/rawGoogleTrendData.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/rawStockPriceData.csv" afterPath="$PROJECT_DIR$/results/rawStockPriceData.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/rawTechIndicatorData.csv" afterPath="$PROJECT_DIR$/results/rawTechIndicatorData.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,84 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stockAnalysis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stockAnalysis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="265" column="30" lean-forward="false" selection-start-line="265" selection-start-column="30" selection-end-line="265" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#448#680#0" expanded="false" />
-                <element signature="e#875#1136#0" expanded="false" />
-                <element signature="e#1353#1927#0" expanded="false" />
-                <element signature="e#2146#2396#0" expanded="false" />
-                <element signature="e#2625#2725#0" expanded="false" />
-                <element signature="e#2986#3223#0" expanded="false" />
-                <element signature="e#4402#5596#0" expanded="false" />
-                <element signature="e#5843#8162#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stockTechIndicator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stockTechIndicator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1870">
-              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="twitterSearch.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-pull-scripts/twitterSearch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-286">
-              <caret line="37" column="72" lean-forward="false" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stockDataPull.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-pull-scripts/stockDataPull.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="googleTrend.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-pull-scripts/googleTrend.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataConsolidation.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataConsolidation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
-              <folding>
-                <element signature="e#1#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -145,12 +72,13 @@
         <option value="$PROJECT_DIR$/testFork.py" />
         <option value="$PROJECT_DIR$/stockTechIndicator.py" />
         <option value="$PROJECT_DIR$/stockAnalysis.py" />
+        <option value="$PROJECT_DIR$/cryptocurrencyDataPull.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
-    <option name="width" value="1458" />
+    <option name="width" value="1481" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -169,17 +97,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="StockSentiment" type="cbb8eebc:String" user="StockSentiment" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,7 +107,12 @@
             <path>
               <item name="StockSentiment" type="b2602c69:ProjectViewProjectNode" />
               <item name="StockSentiment" type="462c0819:PsiDirectoryNode" />
-              <item name="data-pull-scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="indv-data-pull-scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StockSentiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockSentiment" type="462c0819:PsiDirectoryNode" />
+              <item name="machine-learning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StockSentiment" type="b2602c69:ProjectViewProjectNode" />
@@ -202,6 +124,17 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="StockSentiment" type="cbb8eebc:String" user="StockSentiment" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,6 +143,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cyarros\PycharmProjects\StockSentiment\machine-learning" />
       <recent name="C:\Users\cyarros\PycharmProjects\StockSentiment" />
       <recent name="C:\Users\cyarros\PycharmProjects\StockSentiment\unused" />
       <recent name="C:\Users\cyarros\PycharmProjects\StockSentiment\results" />
@@ -227,24 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testFork">
-    <configuration name="MLtesting" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="StockSentiment" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MLtesting.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.cryptocurrencyDataPull">
     <configuration name="classificationML" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,7 +174,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="StockSentiment" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classificationML.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\cyarros\PycharmProjects\StockSentiment\machine-learning\classificationML.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="cryptocurrencyDataPull" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="StockSentiment" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cryptocurrencyDataPull.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,7 +208,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="StockSentiment" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regressionML.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\cyarros\PycharmProjects\StockSentiment\machine-learning\regressionML.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,18 +249,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.stockSentiment" />
-      <item index="1" class="java.lang.String" itemvalue="Python.MLtesting" />
-      <item index="2" class="java.lang.String" itemvalue="Python.classificationML" />
-      <item index="3" class="java.lang.String" itemvalue="Python.regressionML" />
-      <item index="4" class="java.lang.String" itemvalue="Python.testFork" />
+      <item index="1" class="java.lang.String" itemvalue="Python.classificationML" />
+      <item index="2" class="java.lang.String" itemvalue="Python.regressionML" />
+      <item index="3" class="java.lang.String" itemvalue="Python.testFork" />
+      <item index="4" class="java.lang.String" itemvalue="Python.cryptocurrencyDataPull" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.testFork" />
-        <item index="1" class="java.lang.String" itemvalue="Python.stockSentiment" />
-        <item index="2" class="java.lang.String" itemvalue="Python.regressionML" />
-        <item index="3" class="java.lang.String" itemvalue="Python.classificationML" />
-        <item index="4" class="java.lang.String" itemvalue="Python.MLtesting" />
+        <item index="0" class="java.lang.String" itemvalue="Python.cryptocurrencyDataPull" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testFork" />
+        <item index="2" class="java.lang.String" itemvalue="Python.stockSentiment" />
+        <item index="3" class="java.lang.String" itemvalue="Python.regressionML" />
+        <item index="4" class="java.lang.String" itemvalue="Python.classificationML" />
       </list>
     </recent_temporary>
   </component>
@@ -347,41 +281,65 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1458" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1481" height="1047" extended-state="1" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20457697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20136519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34685165" sideWeight="0.147116" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34685165" sideWeight="0.852884" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34685165" sideWeight="0.852884" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39852008" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39852008" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34685165" sideWeight="0.147116" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34685165" sideWeight="0.852884" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20136519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39852008" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stockTechIndicator.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/unused/stockDataPull.py" />
-    <entry file="file://$PROJECT_DIR$/unused/googleTrend.py" />
     <entry file="file://$PROJECT_DIR$/unused/twitterSearch.py" />
     <entry file="file://$PROJECT_DIR$/stockAnalysis.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -393,7 +351,6 @@
             <element signature="e#875#1136#0" expanded="false" />
             <element signature="e#1353#1927#0" expanded="false" />
             <element signature="e#2146#2396#0" expanded="false" />
-            <element signature="e#2625#2725#0" expanded="false" />
             <element signature="e#2986#3223#0" expanded="false" />
             <element signature="e#4402#5596#0" expanded="false" />
             <element signature="e#5843#8162#0" expanded="false" />
@@ -414,7 +371,6 @@
             <element signature="e#875#1136#0" expanded="false" />
             <element signature="e#1353#1927#0" expanded="false" />
             <element signature="e#2146#2396#0" expanded="false" />
-            <element signature="e#2625#2725#0" expanded="false" />
             <element signature="e#2986#3223#0" expanded="false" />
             <element signature="e#4402#5596#0" expanded="false" />
             <element signature="e#5843#8162#0" expanded="false" />
@@ -477,18 +433,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/rawDataConsolidation.csv">
-      <provider editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-85">
-          <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/results/rawDataConsolidation.csv" />
     <entry file="file://$PROJECT_DIR$/MLtesting.py" />
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/sklearn/metrics/classification.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -513,97 +458,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="2521" column="0" lean-forward="false" selection-start-line="2521" selection-start-column="0" selection-end-line="2521" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/rawTechIndicators.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61192">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/results/rawTechIndicators.csv" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classificationML.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regressionML.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="41" column="99" lean-forward="false" selection-start-line="41" selection-start-column="92" selection-end-line="41" selection-end-column="99" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/googleTrendResults.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/stockTickerResults.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testFork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/results/googleTrendResults.csv" />
+    <entry file="file://$PROJECT_DIR$/results/stockTickerResults.csv" />
+    <entry file="file://$PROJECT_DIR$/testFork.py" />
     <entry file="file://$PROJECT_DIR$/results/rawGoogleTrendData.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indv-data-pull-scripts/twitterSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="37" column="72" lean-forward="false" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine-learning/regressionML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="41" column="99" lean-forward="false" selection-start-line="41" selection-start-column="92" selection-end-line="41" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine-learning/classificationML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stockAnalysis.py">
+    <entry file="file://$PROJECT_DIR$/dataConsolidation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="265" column="30" lean-forward="false" selection-start-line="265" selection-start-column="30" selection-end-line="265" selection-end-column="30" />
+        <state relative-caret-position="-476">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indv-data-pull-scripts/googleTrend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#448#680#0" expanded="false" />
-            <element signature="e#875#1136#0" expanded="false" />
-            <element signature="e#1353#1927#0" expanded="false" />
-            <element signature="e#2146#2396#0" expanded="false" />
-            <element signature="e#2625#2725#0" expanded="false" />
-            <element signature="e#2986#3223#0" expanded="false" />
-            <element signature="e#4402#5596#0" expanded="false" />
-            <element signature="e#5843#8162#0" expanded="false" />
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="76" lean-forward="true" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptocurrencyDataPull.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="87" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stockTechIndicator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1870">
+        <state relative-caret-position="-2159">
           <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
@@ -611,38 +549,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-pull-scripts/twitterSearch.py">
+    <entry file="file://$PROJECT_DIR$/indv-data-pull-scripts/stockDataPull.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="37" column="72" lean-forward="false" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
+        <state relative-caret-position="238">
+          <caret line="17" column="145" lean-forward="false" selection-start-line="17" selection-start-column="129" selection-end-line="17" selection-end-column="145" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-pull-scripts/stockDataPull.py">
+    <entry file="file://$PROJECT_DIR$/stockAnalysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-pull-scripts/googleTrend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="39" />
+        <state relative-caret-position="119">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="89" selection-end-column="14" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataConsolidation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#448#680#0" expanded="false" />
+            <element signature="e#875#1136#0" expanded="false" />
+            <element signature="e#1353#1927#0" expanded="false" />
+            <element signature="e#2146#2396#0" expanded="false" />
+            <element signature="e#2986#3223#0" expanded="false" />
+            <element signature="e#4402#5596#0" expanded="false" />
+            <element signature="e#5843#8162#0" expanded="false" />
           </folding>
         </state>
       </provider>
