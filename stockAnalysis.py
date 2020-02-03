@@ -176,10 +176,10 @@ def twitterSentimentPull(stockticker):
 
 
     api = twitter.Api(
-        consumer_key='i83JrbirFFJ9mx0xkgXacj7bT',
-        consumer_secret='XbhsBbsECNBNOA0iDO9UqJRns5Xrjnx1gYrUGS5wFCh5Hm5vDz',
-        access_token_key='940629705807597568-56AcrGEz8BVIVu8LbjOUARv4iuHf6m7',
-        access_token_secret='aSWt2OP0MyNUud8I9tA58YEphTYK945yeh4Nx11qLgIsS')
+        consumer_key='',
+        consumer_secret='',
+        access_token_key='',
+        access_token_secret='')
 
     tweets = []
 
